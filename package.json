@@ -1,0 +1,26 @@
+{
+  "name": "jsdays16-jasmine",
+  "version": "1.0.0",
+  "description": "Quelltexte aus dem Workshop \"Javascript Testing mit Jasmine\" auf den JS Days 2016, Oktober",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djungowski/jsdays16-jasmine.git"
+  },
+  "author": "Dominik Ehrenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djungowski/jsdays16-jasmine/issues"
+  },
+  "homepage": "https://github.com/djungowski/jsdays16-jasmine#readme"
+}
