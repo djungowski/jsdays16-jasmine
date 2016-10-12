@@ -40,4 +40,10 @@ describe('add()', function() {
 		};
         expect(addWrapper).toThrowError('Fehler');
     });
+
+	// Beispiel, wann 2 expectations in einem it-Block Sinn machen
+	xit('returns false if a param is not a number', function() {
+		expect(add({a: '4'}, 3)).toBe(false);
+		expect(add(5, '5')).toBe(false);
+	});
 });

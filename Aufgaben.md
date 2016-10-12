@@ -8,3 +8,6 @@ Denkt an Edge-Cases, wenn ihr 2 Strings reinwerft.
 Werfe in der Funktion von Aufgabe 1 eine Exception, wenn ein Parameter fehlt.
 
 ````expect(add(5)).toThrow();````
+
+## Aufgabe 3
+Schreibe eine Funktion, die eine andere Funktion aufruft.
