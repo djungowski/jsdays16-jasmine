@@ -14,3 +14,6 @@ Schreibe eine Funktion, die eine andere Funktion aufruft.
 
 ## Aufgabe 4
 Fügt eine beforeEach funktion in das Beispiel mit der Callback-Funktion ein, um die Spy-generierung zu deduplizieren.
+
+## Aufgabe 5
+Schreibe eine Funktion, die eine Nachricht über window.alert ausgibt und teste diese.
