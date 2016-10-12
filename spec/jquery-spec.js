@@ -24,4 +24,10 @@ describe('jQuery tests', function() {
 
 		expect($('#textresult')).toHaveText(usertext);
 	});
+	
+	it('prevents the default', function() {
+	    var eventSpy = jasmine.createSpyObj('event', ['preventDefault']);
+		usertextFormHandler(eventSpy);
+		expect(eventSpy.preventDefault).toHaveBeenCalled();
+	});
 });

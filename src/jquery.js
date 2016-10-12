@@ -9,10 +9,12 @@ var registerFormHandler = function () {
 	});
 };
 
+var usertextFormHandler = function (event) {
+	event.preventDefault();
+	var usertext = $('#usertext').val();
+	$('#textresult').text(usertext);
+};
+
 var registerUsertextFormHandler = function() {
-	$('#usertext-form').submit(function (event) {
-		event.preventDefault();
-		var usertext = $('#usertext').val();
-		$('#textresult').text(usertext);
-	});
+	$('#usertext-form').submit(usertextFormHandler);
 }
