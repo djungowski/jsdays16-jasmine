@@ -10,3 +10,8 @@ var returnsFunction = function (anyNumber) {
 	return function () {
 	};
 };
+
+
+function add(a, b) {
+	throw(new Error('Fehler'));
+}

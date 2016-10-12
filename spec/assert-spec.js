@@ -25,10 +25,19 @@ describe('Function tests', function() {
 	    expect(returnsFunction()).not.toThrow();
 	});
 
-	it('throws if proving 5 as param', function() {
+	it('throws if providing 5 as param', function() {
 		var throwsAnException = function () {
 			returnsFunction(5)
 		};
 	    expect(throwsAnException).toThrow('Foobar');
 	});
+});
+
+describe('add()', function() {
+    it('throws an error object', function() {
+		var addWrapper = function () {
+			add();
+		};
+        expect(addWrapper).toThrowError('Fehler');
+    });
 });
