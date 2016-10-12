@@ -1,4 +1,5 @@
 # Links
+- http://jasmine.github.io/2.5/introduction.html
 - https://github.com/jasmine/jasmine/releases
 - https://github.com/velesin/jasmine-jquery
 - https://karma-runner.github.io/
