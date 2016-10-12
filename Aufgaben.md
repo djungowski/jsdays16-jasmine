@@ -17,3 +17,6 @@ Fügt eine beforeEach funktion in das Beispiel mit der Callback-Funktion ein, um
 
 ## Aufgabe 5
 Schreibe eine Funktion, die eine Nachricht über window.alert ausgibt und teste diese.
+
+## Aufgabe 6
+Führt nach 5 Sekunden eine Callback-Funktion aus und übergebt ihr den String "Hello Kitty".
