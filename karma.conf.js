@@ -17,9 +17,10 @@ module.exports = function(config) {
     files: [
       'lib/jquery-3.1.1.js',
       'lib/jasmine-jquery.js',
+      'spec/support/karma-fixtures.js',
       'src/*.js',
       'spec/*.js',
-      'spec/fixtures/*.html'
+      'spec/javascripts/fixtures/*.html'
     ],
 
 

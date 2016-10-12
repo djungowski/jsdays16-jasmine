@@ -5,11 +5,23 @@ describe('jQuery tests', function() {
 		expect($('#hello')).toHaveText('Kitty');
     });
 
-	it('renders a text if submitting form', function() {
-		jasmine.getFixtures().fixturesPath = 'base/spec/fixtures';
+	it('renders a text when submitting form', function() {
 		jasmine.getFixtures().load('form.html');
+
 		registerFormHandler();
 	    $('#hello-kitty-form').submit();
+
 		expect($('#hello')).toHaveText('Kitty');
+	});
+
+	it('renders a user text when submitting form', function() {
+	    jasmine.getFixtures().load('aufgabe7.html');
+		var usertext = 'Hello Kitty';
+
+		registerUsertextFormHandler();
+		$('#usertext').val(usertext);
+		$('#usertext-form').submit();
+
+		expect($('#textresult')).toHaveText(usertext);
 	});
 });

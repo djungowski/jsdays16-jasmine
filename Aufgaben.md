@@ -20,3 +20,6 @@ Schreibe eine Funktion, die eine Nachricht über window.alert ausgibt und teste 
 
 ## Aufgabe 6
 Führt nach 5 Sekunden eine Callback-Funktion aus und übergebt ihr den String "Hello Kitty".
+
+## Aufgabe 7
+Input, Button, Div. Ich gebe was ins Input ein, drücke den Button und der Text erscheint im DIV.

@@ -8,3 +8,11 @@ var registerFormHandler = function () {
 		buttonClickHandler();
 	});
 };
+
+var registerUsertextFormHandler = function() {
+	$('#usertext-form').submit(function (event) {
+		event.preventDefault();
+		var usertext = $('#usertext').val();
+		$('#textresult').text(usertext);
+	});
+}
